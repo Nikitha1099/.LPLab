@@ -1,0 +1,1 @@
+docker build --tag lp-lab --file docker/Dockerfile .
