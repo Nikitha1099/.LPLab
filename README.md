@@ -11,7 +11,7 @@ For instructions, regarging installation installation of Ubuntu on VirtualBox, s
 
   1. Docker Desktop.
   
-  2. At least 7 GB of free storage on Drive.
+  2. At least 1.5 GB of free storage on drive.
   
   3. A Good Internet Connection or some patience.
 
