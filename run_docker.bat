@@ -1,0 +1,1 @@
+docker run --name lp-lab --rm -it -v "$(pwd)/workspace":"/home/ubuntu/workspace" lp-lab

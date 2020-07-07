@@ -17,33 +17,44 @@ For instructions, regarging installation installation of Ubuntu on VirtualBox, s
 
 ## Instructions to Install docker container.
   
-  1. Go-To [Docker Website](https://www.docker.com/products/docker-desktop), download and install docker for your platform
+  * Goto [Docker Website](https://www.docker.com/products/docker-desktop), download and install docker for your platform
 
-  2. Clone this Repo
-     
+  * Clone this Repo
+    
     * Click the Download in the Upper right-hand corner
 
     * Or use this command
-      ```
+    ```
       git clone https://github.com/SaiHemanthBR/.LPLab.git
-      ```
-  
-  4. `cd` into this directory on terminal or command prompt
-  
-  3. On macOS or linux, run the the following commands:
     ```
-      $ chmod +x build_docker.sh
-      $ chmod +x run_docker.sh
-      
-      $ ./build_docker.sh
-    ```
+  
+  * `cd` into this directory on terminal or command prompt
+  
+  *  On **macOS** or linux, run the the following commands:
+  ```
+    $ chmod +x build_docker.sh
+    $ chmod +x run_docker.sh
+  
+    $ ./build_docker.sh
+  ```
+
+  * On **Windows**, run
+  ```
+    build_docker.bat
+  ```
 
 ## To run docker container:
 
   * To run the containe, run the following command:
-    ```
-      $ ./run_docker.sh
-    ```
+    * On **macOS**:
+      ```
+        $ ./run_docker.sh
+      ```
+    
+    * On **Windows**:
+      ```
+        run_docker.bat
+      ```
   
   * All code accessable in docker container resides in `workspace` directory. So save any code in `workspace` directory, to be able to run 
   in ubuntu
