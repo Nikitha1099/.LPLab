@@ -56,5 +56,11 @@ For instructions, regarding installation installation of Ubuntu on VirtualBox, s
         run_docker.bat
       ```
   
+> If you get this error: <br>
+"%cd%"/workspace:"/home/ubuntu/workspace" lp-lab docker: Error response from daemon: status code not OK but 500: {"Message":"Unhandled exception: Filesharing has been cancelled" ..... <br><br>
+Open docker settings and add the current folder path in file sharing
+
+
+
   * All code accessable in docker container resides in `workspace` directory. So save any code in `workspace` directory, to be able to run 
   in ubuntu
