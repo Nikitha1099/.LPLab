@@ -38,8 +38,6 @@ RUN yes | unminimize
 RUN useradd -rm -d /home/ubuntu -s /bin/bash -g root -G sudo -u 1000 -p $(openssl passwd -1 password) ubuntu
 USER ubuntu
 RUN echo PS1="'${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]\$ '" >> ~/.bashrc && \
-    echo "alias algol='a68g'" >> ~/.bashrc && \
-    echo "alias rm='delete'" >> ~/.bashrc && \
     echo "alias la='ls -la'" >> ~/.bashrc && \
     echo "clear" >> ~/.bashrc && \
     mkdir /home/ubuntu/.trash
