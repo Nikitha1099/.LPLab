@@ -5,7 +5,7 @@ in `docker` directory.
 
 For instructions, regarding installation on docker (recommanded), follow the steps show below.
 
-For instructions, regarging installation installation of Ubuntu on VirtualBox, see [VM_Install.md](https://github.com/SaiHemanthBR/.LPLab/blob/master/VM_Install.md)
+For instructions, regarding installation installation of Ubuntu on VirtualBox, see [VM_Install.md](https://github.com/SaiHemanthBR/.LPLab/blob/master/VM_Install.md)
 
 ## Requirements
 
